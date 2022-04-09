@@ -1,0 +1,22 @@
+.font_1{
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 15px;
+}
+
+.font_2{
+    background-color: darkblue;
+    color: whitesmoke;
+    font-size: medium;
+    padding: 10px;
+}
+
+.My_Style{
+    background-color: red;
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: small;
+    padding: 5px;
+}
