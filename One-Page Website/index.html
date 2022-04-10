@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personle Portfolio Website</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo"><img src="./images/logo_small.png" alt=""></div>
+        <ul class="links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+    <!-- Main Page -->
+    <div id="home">
+        <div class="container">
+            <div class="detel">
+                <h1>I'm Noorahmad <span>Noor</span></h1>
+                <p>This is my official Portfolio website to showcase my 
+                    all works related to <br> web development and ui design. </p>
+                <a href="./docs/Noorahmad_Resume.pdf">Downdload CV</a>
+            </div>
+            <div class="images">
+                <img src="./images/shape.png" class="shape">
+                <img src="./images/noor.png" class="Noor">
+            </div>
+
+            <div class="social">
+            <a href="https://www.facebook.com/Eng.NoorAhmad143"><i class="fab fa-facebook"></i></a>
+            <a href="https://ca.linkedin.com/in/noorahmad-noor"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/noorahmad2022"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+  
+    <!-- About  -->
+    <div id="about" style="background-image: url(./images/back.jpg);background-size: cover;">    
+        <div class="About-Container">
+            <div class="About-text">
+                <h1>About <span>Me</span></h1>
+                <p>Qualified IT certified Expert with 11+ years of experience in IT Support and in-depth 
+                   understanding of <br> IT Infrastructure, particularly Servers, Storage, Network (Cisco, 
+                   MikroTik, and Cyberoam Technology), <br> and Security in Microsoft Windows Server/ Linux Operating System. </p>
+                <a href="https://ca.linkedin.com/in/noorahmad-noor">Learn More</a>
+            </div> 
+            <div class="about-image">
+                <img src="./images/noor1.png" class="AboutPic">
+            </div>                     
+        </div>
+    </div>   
+
+<!-- Gallery -->
+    <div id="gallery">
+        <div class="gallery-container">
+            <h1>Gallery</h1>
+            <p>Here is some of my favorit Pictures wanna share with you!</p>
+            <div class="image-grid">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_dIliOvL5aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img src="./images/gallery/img-01.jpg" class="Image-01">
+                <img src="./images/gallery/img-02.jpg" class="Image-02">
+                <img src="./images/gallery/img-03.jpg" class="Image-03">
+                <img src="./images/gallery/img-04.jpg" class="Image-04">
+                <img src="./images/gallery/img-05.jpg" class="Image-05">
+                <img src="./images/gallery/img-06.jpg" class="Image-06">
+                <img src="./images/gallery/img-07.jpg" class="Image-07">
+            </div>
+        </div>
+    </div>
+
+<!-- Contact -->
+
+<div id="contact" style="background-image: url(./images/contactbg.jpg); background-size: cover;">
+<div class="contact-form">
+    <h1>Contact Us</h1>
+    <div class="txtb">
+      <label>Full Name :</label>
+      <input type="text" name="" value="" placeholder="Enter Your Name">
+    </div>
+
+    <div class="txtb">
+      <label>Email :</label>
+      <input type="email" name="" value="" placeholder="Enter Your Email">
+    </div>
+
+    <div class="txtb">
+      <label>Phone Number :</label>
+      <input type="text" name="" value="" placeholder="Enter Your Phone Number">
+    </div>
+
+    <div class="txtb">
+      <label>Message :</label>
+      <textarea></textarea>
+    </div>
+    <a class="btn">Send</a>
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+    <p>Copyright &copy; 2022 Noorahmad Noor &#174;| All rights reserved </p>
+</div>
+</body>
+</html>
