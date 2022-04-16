@@ -1,0 +1,111 @@
+body{
+    background-color: #fff;
+}
+
+h1{
+    color: rgba(8, 141, 165, 1);
+    margin-left: 100px;
+    text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
+}
+
+.container{
+    width: 450px;
+    height: 450px;
+    background-color: #faebd7;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.container .squares:nth-child(-n+4){
+    background-image: url(./Icons/icons.png);
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+
+.squares:nth-child(-n+4) p{
+    font-family: "Helvertica neue", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1cm;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 2px 1px 4px rgba(0,0,0, 0.8);
+    margin: 0;
+}
+
+.squares:nth-child(1){
+    background-color: brown;
+}
+.squares:nth-child(2){
+    background-color:chocolate;
+}
+.squares:nth-child(3){
+    background-color: darkgreen;
+}
+.squares:nth-child(4){
+    background-color: darkslategrey;
+}
+
+
+/* Select All Squares in the Array */
+
+.container .squares{
+    background-image: url();
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+
+.container .squares:nth-child(-n+4):hover{
+    background-image: url(./Icons/icons2.png);
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.squares:nth-child(1):hover{
+    background-color:darkslategrey;
+}
+.squares:nth-child(2):hover{
+    background-color:darkgreen;
+}
+.squares:nth-child(3):hover{
+    background-color:chocolate;
+}
+.squares:nth-child(4):hover{
+    background-color:brown;
+}
+
+/* Animation Effect*/
+@keyframes race {
+    0%, 100% {
+        transform: translate(0px);
+        background-image: url(./Icons/icons2.png);
+    }
+    50%{
+        transform: translateY(300px);
+    }
+    
+}
+
+
+.filtered:hover {
+    -webkit-filter: url(#f1);
+    filter: url(#f1);
+  }
+
+/* Select all squares parargraph in the Array */
